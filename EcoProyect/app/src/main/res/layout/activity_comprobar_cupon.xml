@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComprobarCupon"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
+        app:popupTheme="@style/Theme.EcoProyect.PopupOverlay" >
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:maxLength="1"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:hint="-"/>
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:maxLength="1"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:hint="-"/>
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:maxLength="1"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:hint="-"/>
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:maxLength="1"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:hint="-"/>
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:maxLength="1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:hint="-"/>
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:maxLength="1"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="4dp"
+            android:hint="-"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_gravity="center"
+        android:id="@+id/comprobarBtn"
+        android:layout_width="153dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Comprobar"
+        android:background="@drawable/btn_green"/>
+
+
+</LinearLayout>

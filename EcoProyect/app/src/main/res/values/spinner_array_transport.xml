@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transportasion_array">
+        <item>Andando</item>
+        <item>Bici</item>
+        <item>Bici eléctrica</item>
+        <item>Patinete eléctrico</item>
+        <item>Bus</item>
+        <item>Total</item>
+    </string-array>
+</resources>

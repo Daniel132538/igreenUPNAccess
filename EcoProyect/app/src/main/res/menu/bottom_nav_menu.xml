@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_statistics"
+        android:icon="@drawable/baseline_auto_graph_24"
+        android:title="@string/estadisitcas" />
+    <item
+        android:id="@+id/nav_coupon"
+        android:icon="@drawable/baseline_coupon_24"
+        android:title="@string/cupones"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/mapa" />
+
+    <item
+        android:id="@+id/nav_ranking"
+        android:icon="@drawable/baseline_ranking_24"
+        android:title="@string/ranking" />
+
+    <item
+        android:id="@+id/nav_record"
+        android:icon="@drawable/baseline_event_record_24"
+        android:title="@string/historial" />
+
+</menu>

@@ -1,0 +1,11 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.example.ecoproyect.osmbonuspack" >
+5
+6    <uses-sdk android:minSdkVersion="16" />
+7
+8    <application />
+8-->C:\Users\danim\AndroidStudioProjects\EcoProyect\OSMBonusPack\src\main\AndroidManifest.xml:4:5-20
+9
+10</manifest>

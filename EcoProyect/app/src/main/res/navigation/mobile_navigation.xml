@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ecoproyect.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.ecoproyect.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.ecoproyect.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="com.example.ecoproyect.ui.statistics.StatisticsFragment"
+        android:label="@string/estadisitcas"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="com.example.ecoproyect.ui.record.RecordFragment"
+        android:label="@string/historial"
+        tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/nav_coupon"
+        android:name="com.example.ecoproyect.ui.coupons.CouponFragment"
+        android:label="@string/cupones"
+        tools:layout="@layout/fragment_coupon" />
+
+    <fragment
+        android:id="@+id/nav_ranking"
+        android:name="com.example.ecoproyect.ui.ranking.RankingFragment"
+        android:label="@string/ranking"
+        tools:layout="@layout/fragment_ranking" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_incidencia"
+        android:name="com.example.ecoproyect.ui.incidencia.IncidenciaFragment"
+        android:label="@string/incidencia"
+        tools:layout="@layout/fragment_incidencia" >
+    </fragment>
+
+</navigation>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:contentDescription="@string/hombre_viajando_en_villabesa"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/bus" />
+
+        <ImageView
+            android:contentDescription="@string/hombre_viajando_en_villabesa"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/bus" />
+        <ImageView
+            android:contentDescription="@string/hombre_viajando_en_villabesa"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/bus" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/card_view_login"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            app:boxStrokeColor="@color/green"
+            app:hintTextColor="@color/green"
+            app:placeholderTextColor="@color/green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableEnd="@drawable/email"
+                android:hint="@string/email"
+                android:padding="14dp"
+                android:inputType="text"
+                android:shadowColor="@color/darker_gray"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/password"
+            android:orientation="horizontal"
+            app:boxStrokeColor="@color/green"
+            app:hintTextColor="@color/green"
+            app:placeholderTextColor="@color/green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/not_visible"
+                android:padding="14dp"
+                android:shadowColor="@color/darker_gray"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/recycling"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/error"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_green"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/iniciar_sesi_n"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/forgotPassoword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/has_olvidado_la_contrase_a"
+                android:textColor="@color/green"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:padding="8dp"
+                android:text="@string/registrar"
+                android:textColor="@color/verde_oscuro"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

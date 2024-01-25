@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customSpinnerItemLayout"
+    android:orientation="horizontal"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:contentDescription="@string/bander_de_espa_a"
+        android:id="@+id/flag"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:src="@drawable/spain"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/_34"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
